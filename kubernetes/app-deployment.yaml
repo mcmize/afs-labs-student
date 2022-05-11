@@ -21,7 +21,7 @@ spec:
       containers:
       - envFrom:
         - secretRef:
-            name: db-secret
+            name: app-deployment
         name: app-deployment
         image: harbor.dev.afsmtddso.com/mmize-harbor-project/app:971c881-9233419
         ports:
